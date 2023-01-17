@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+  .home-content-box {
+    width: 90%;
+    max-width: 1000px;
+    flex-direction: row;
+    @include flexMid;
+    padding: 20px;
+    margin: 40px auto;
+
+    .home-content-text {
+      width: 60%;
+      padding: 0 40px;
+      text-align: justify;
+      margin-bottom: 0;
+
+      p {
+        font-size: 20px;
+      }
+      svg {
+        font-size: 30px;
+      }
+    }
+    .home-content-img {
+      width: 40%;
+    }
+  }
+
+  .home-content-box2 {
+    flex-direction: row-reverse;
+  }
+}

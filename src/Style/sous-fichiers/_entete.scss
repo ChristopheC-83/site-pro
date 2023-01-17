@@ -1,0 +1,33 @@
+.entete {
+  margin: 40px auto 20px;
+  width: 96vw;
+  max-width: 960px;
+  max-height: 400px;
+  height: 40vw;
+  border: 2px solid var(--fonce);
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px var(--fonce);
+  background: no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+
+  .entete-title {
+    width: 100%;
+    height: 100%;
+
+    span {
+      display: block;
+      font-family: "Dancing Script", cursive;
+      text-align: center;
+      font-weight: bold;
+    }
+    h1 {
+      max-width: 80%;
+      font-size: clamp(22px, (calc(8px + 5vw)), 60px);
+      margin: 2% auto;
+    }
+    h2 {
+      font-size: clamp(18px, (calc(6px + 4.5vw)), 50px);
+    }
+  }
+}

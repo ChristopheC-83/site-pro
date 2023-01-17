@@ -1,0 +1,62 @@
+@mixin triangleBefore($couleurTriangle : white, $size:10px){
+    &::before{
+        content:"";
+        width: 0;
+        height: 0;
+        border-top: $size solid $couleurTriangle ;
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        // border-bottom: 10px solid crimson;
+        position: absolute;
+        bottom: $size * -1;
+        left : calc(50% - $size)
+    }
+}
+@mixin triangleAfter($couleurTriangle : white, $size:10px){
+    &::After{
+        content:"";
+        width: 0;
+        height: 0;
+        border-bottom: $size solid $couleurTriangle ;
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+        // border-bottom: 10px solid crimson;
+        position: absolute;
+        top: $size * -1;
+        left : calc(50% - $size)
+    }
+}
+
+@mixin flexMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin posMid{
+    position: absolute;
+    top:50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin textShadow($x:2px,$y:2px, $flou:2px, $couleur:#333){
+    text-shadow : $x $y $flou $couleur;
+
+}
+
+@mixin boxShadow($x:2px,$y:2px, $flou:2px, $couleur:#333){
+    box-shadow : $x $y $flou $couleur;
+
+}
+
+@mixin btn{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+

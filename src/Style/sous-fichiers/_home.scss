@@ -1,0 +1,11 @@
+.home-spacer{
+    width: 100%;
+    height: 120px;
+    background-color: var(--clair);
+}
+
+@media screen and (min-width: 768px){
+    .home-spacer{
+        height: 300px;
+    }
+}

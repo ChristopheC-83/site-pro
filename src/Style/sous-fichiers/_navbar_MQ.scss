@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+  .navigation-container {
+    top: -10px;
+  }
+
+  .navigation {
+    @include flexMid;
+    width: 90%;
+    max-width: 1000px;
+    height: 100px;
+  }
+
+  .nav-icon {
+    font-size: 40px;
+  }
+
+  a.active svg {
+    transform: translateY(52px);
+    font-size: 35px;
+  }
+
+  a .nav-text {
+    font-size: 20px;
+    transform: translateY(-40px);
+  }
+
+  a.active .nav-text {
+    transform: translateY(-22px);
+  }
+
+  .indicator {
+    width: 80px;
+    height: 80px;
+    top: 60%;
+    transition: 0.5s;
+    opacity: 0;
+
+    &::before {
+      content: "";
+      top: 15px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 10px 0 0 var(--clair);
+    }
+
+    &::after {
+      content: "";
+      top: 15px;
+
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 20px;
+      box-shadow: 0 10px 0 0 var(--clair);
+    }
+  }
+}

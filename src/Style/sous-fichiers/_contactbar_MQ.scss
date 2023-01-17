@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+  .contactbar-container {
+    position: fixed;
+    top: calc(100vh - 335px);
+    height: 35px;
+    transition: all 1s;
+    z-index: 60;
+  }
+  .contactbar-cache {
+    position: absolute;
+    top: 300px;
+    z-index: 60;
+
+    height: 35px;
+    transition: all 1s;
+    .contactbar-chevron {
+      transform: rotate(180deg);
+      transition: all 1s;
+      h3 {
+        transform: rotate(180deg);
+        font-size: 22px;
+      }
+
+      .contactbar-chevron-img1 {
+        transform: rotate(0deg);
+        font-size: 22px;
+      }
+      .contactbar-chevron-img2 {
+        transform: rotate(0deg);
+        font-size: 22px;
+      }
+    }
+  }
+
+  .contactbar-active {
+    top: 100% ;
+    font-size: 20px;
+    transition: all 1s;
+    z-index: 60;
+    .contactbar-chevron {
+      bottom: calc(100% - 28px);
+      transform: rotate(180deg);
+      font-size: 22px;
+      h3 {
+        transform: rotate(180deg);
+        font-size: 22px;
+      }
+    }
+  }
+}

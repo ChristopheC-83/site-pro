@@ -1,0 +1,132 @@
+.contactbar-container {
+  height: 28px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 20;
+}
+
+.contactbar-active {
+  transition: all 1s;
+  position: absolute;
+  height: 328px;
+  width: 100%;
+  background-color: var(--fonce);
+  color: var(--clair);
+  @include flexMid;
+  z-index: 60;
+  font-size: 20px;
+
+  .contactbar-content {
+    text-align: center;
+
+    a {
+      color: var(--clair);
+      line-height: 20px;
+    }
+    a svg {
+      font-size: 25px;
+    }
+  }
+
+  .contactbar-item {
+    display: block;
+    width: 100%;
+    @include flexMid;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .contactbar-chevron {
+    position: absolute;
+    @include flexMid;
+    bottom: 5px;
+    font-size: 14px;
+
+    h3 {
+      margin: 0 20px;
+    }
+    .contactbar-chevron-img1 {
+      transform: rotate(540deg);
+      transition: all 1s;
+    }
+    .contactbar-chevron-img2 {
+      transform: rotate(-540deg);
+      transition: all 1s;
+    }
+  }
+
+  .contactbar-icone-insta {
+    width: 60px;
+    height: 60px;
+    @include flexMid;
+    border: 3px solid var(--clair);
+    border-radius: 99999px;
+    background-color: var(--rose);
+    transition: all 0.5s;
+
+    svg {
+      transform: scale(1.5);
+    }
+    &:hover {
+      border: 3px solid var(--rose);
+      background-color: var(--clair);
+      box-shadow: 0px 0px 10px 5px var(--rose);
+
+      svg {
+        color: var(--rose);
+      }
+    }
+  }
+}
+
+.contactbar-cache {
+  position: fixed;
+  top: 0px;
+  transition: all 1s;
+
+  .contactbar-content {
+    display: none;
+  }
+
+  position: absolute;
+  height: 28px;
+  width: 100%;
+  background-color: var(--fonce);
+  color: var(--clair);
+  @include flexMid;
+
+  .contactbar-chevron {
+    position: absolute;
+    @include flexMid;
+    bottom: 5px;
+    font-size: 14px;
+
+    h3 {
+      margin: 0 20px;
+    }
+    .contactbar-chevron-img1 {
+      transform: rotate(0deg);
+      transition: all 1s;
+    }
+    .contactbar-chevron-img2 {
+      transform: rotate(0deg);
+      transition: all 1s;
+    }
+  }
+}
+
+.contactbar-overlay {
+  z-index: 15;
+  position: absolute;
+  top: -200vh;
+  left: 0;
+  
+  width: 100%;
+  min-height: 2500vh;
+  background-color: #33333350;
+}
+
+.contactbar-overlay-cache {
+  display: none;
+}

@@ -30,7 +30,7 @@ export default function TarifComponents2() {
           poignées...
           <br />
           <br />
-          <FaArrowCircleRight style={{ margin: "0 10px", fontSize:"16px" }} />Nous faisons ensemble ce qui vous gêne le plus, pas de soucis ! <br />
+          <FaArrowCircleRight style={{ margin: "0 10px", fontSize:"16px" }} />Nous faisons ensemble ce qui vous gêne le plus, pas de souci ! <br />
           <br />
           <FaArrowCircleRight style={{ margin: "0 10px", fontSize:"16px" }} />Je m'occupe de la jonction des caissons, remise à niveau, fixations
           murales, jonction et découpe des plans de travail, installation et

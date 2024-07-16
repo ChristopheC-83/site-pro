@@ -37,12 +37,19 @@ export default function FonctionnementComponent3() {
         Tout ce petit monde s'active de concert pour une réussite de votre projet. <br />
           <br />J'ai le plaisir et loisir de pouvoir choisir les enseignes avec qui je travaille. <br />
           <br />Soit nous partageons les mêmes valeurs humaines et commerçantes.... soit j'en change ! <br />
-          <br />A ce jour, je collabore essentiellement avec :
+          <br />Je ne travaille pas avec des enseignes mais avec des humains. <br />
+          <br />C'est pourquoi, à ce jour, je collabore essentiellement avec :
         </p>
         
         <div className="partners">
+          <p class = "text_partner">En quasi exclusivité à ce jour:</p>
+
+          <div className="partner partner1"><a href="https://magasins.ixina.fr/fr/magasins/france-fra/arles/ixina-arles-IXFR1304">Ixina Arles</a></div>
+
+          
+          <p class = "text_partner">Parce qu'ils sont mon partenaire historique <br/>depuis 2016 :</p>
+          
           <div className="partner partner2"><a href="https://www.lapeyre.fr/tous-les-magasins/magasin-lapeyre-languedoc-roussillon-nimes">Lapeyre Nîmes</a></div>
-          <div className="partner partner3"><a href="https://magasins.ixina.fr/fr/magasins/france-fra/arles/ixina-arles-IXFR1304">Ixina Arles</a></div>
 
 
         </div>

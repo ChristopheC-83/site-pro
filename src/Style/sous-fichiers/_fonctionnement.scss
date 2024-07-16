@@ -4,6 +4,11 @@
     text-align: center;
     margin: 0 auto;
     position: relative;
+    // border : 1px solid violet;
+
+    .text_partner{
+      margin-bottom: 80px;
+    }
   
     .partner {
       width: 50%;
@@ -19,32 +24,25 @@
       font-weight: bold;
       transition: all 0.5s;
       // z-index: 30;
-  
-      &:nth-child(1) {
-        background-color: #ed0015;
-        top: 20px;
+     
+      &:nth-child(2) {
+        background-color: #284b73;
+        top: 50px;
         a {
           color: black;
           padding: 10px;
         }
       }
-      &:nth-child(2) {
-        background-color: #284b73;
-        top: 50%;
-        transform: translateY(-50%) translateX(-50%);
+      &:nth-child(4) {
+        background-color:#ed0015;
+        top: 75%;
+        transform: translateY(-30%) translateX(-50%);
         a {
           color: white;
           padding: 10px;
         }
       }
-      &:nth-child(3) {
-        background-color: #284b73;
-        bottom: 20px;
-        a {
-          color:white;
-          padding: 10px;
-        }
-      }
+      
       &:hover {
         font-size: 20px;
         width: 60%;

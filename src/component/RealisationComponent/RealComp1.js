@@ -56,7 +56,7 @@ export default function RealComp1() {
           <p>Bon visionnage !</p>
         </div>
         <Waypoint
-        bottomOffset="50%"
+        bottomOffset="40%"
         onEnter={() => {
           console.log("c'est waypointé!");
 

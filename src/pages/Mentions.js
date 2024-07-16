@@ -42,7 +42,7 @@ export default function Mentions() {
             <br/>
             <h2>Données personnelles :</h2>
             <p>Pour vous offrir des services adaptés, nous pouvons être amenés à vous demander de nous fournir des données personnelles. Nous nous engageons à respecter votre vie privée, comme votre adresse, votre adresse mail ou votre numéro de téléphone en cas de contact,  et à protéger les informations que vous nous communiquez.</p><br/>
-            <p>En particulier, les données recueillies via le formulaires de contact sont utilisées exclusivement dans le cadre de l'activité de la société et ne sont pas revendues à des tiers, suivant la directive de la CNIL :
+            <p>En particulier, les données recueillies via le formulaire de contact sont utilisées exclusivement dans le cadre de l'activité de la société et ne sont pas revendues à des tiers, suivant la directive de la CNIL :
             Conformément à la loi Informatique et Libertés du 6 Janvier 1978, vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données personnelles que vous nous avez communiquées.</p>
             <br/>
             <p>Vous pouvez exercer ce droit en nous envoyant un courrier postal ou par mail.
@@ -55,7 +55,7 @@ export default function Mentions() {
         
             <h2>Qui suis-je ?</h2>
             <p>Christophe CHIAPPETTA</p>
-            <p>Forme Juridique : artisan en nom propre / Entreprise à Resposabilité Limité (EIRL)</p>
+            <p>Forme Juridique : artisan en nom propre / Entreprise à Resposabilité Limitée (EIRL)</p>
             <p>SIRET : 810.767.772.00017</p>
             <p>Date de création : 24 avril 2015</p>
             <p>Code APE : 4332A</p>
@@ -75,11 +75,9 @@ export default function Mentions() {
             <p>déplacement de l'existant en plomberie et électricité.</p>
             <p>démontage et évacuation de la cuisine à démonter.</p>
             <br/>
-            <p>Les travaux sont couverts par un assurance biennale/responsabilité civile ainsi qu'une décennale en fonction de leur nature. Contrats d'assurance souscrit auprès de la MAAF. Disponibles sur demande.</p>
+            <p>Les travaux sont couverts par une assurance biennale/responsabilité civile ainsi qu'une décennale en fonction de leurs natures. Contrats d'assurance souscrits auprès de la MAAF. Disponibles sur demande.</p>
             <br/>
         
-            <h2>Archives :</h2>
-            <p><a href="https://archivev1.christophe-cuisine.fr/">Ancien site</a></p>
         </div>
         
       <div className="home-spacer"></div>

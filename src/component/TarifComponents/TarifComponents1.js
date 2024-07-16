@@ -62,7 +62,7 @@ export default function TarifComponents1() {
           préalable que nous ajustons sur ce qui est fait réellement.  <br/><br/>
           Si finalement vous souhaitez gérer les cartons et emballages,votre
           lave-vaisselle n'est plus intégrable mais en pose libre et vous vous
-          sentez de le positionner et brancher... pas de soucis, on le retire !
+          sentez de le positionner et brancher... pas de souci, on le retire !
         </p>
       </div>
       <Waypoint

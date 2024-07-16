@@ -1,7 +1,8 @@
 {
-  "home-page":"http://react.christophe-cuisine.fr/",
-  "name": "react-simon",
-  "version": "0.1.0",
+  "name": "hostinger-react",
+  "home-page":"https://christophe-cuisine.fr/",
+  "version": "1.0.0",
+  "description":"site d'un poseur de cuisines autour de nîmes",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
